@@ -1,0 +1,29 @@
+
+@media (min-width: 768px) {
+  #name1 {
+    width: 233px;
+  }
+
+  #name2 {
+    width: 234px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #name1 {
+    width: 130px;
+  }
+
+  #name2 {
+    width: 1230px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #name1 {
+    width: 120px;
+  }
+
+  #name2 {
+    width: 110px;
+  }
+}
+~               
