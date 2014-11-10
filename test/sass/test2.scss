@@ -1,0 +1,33 @@
+@import "breakpoint";
+$min:768px;
+$middle:769px 1024px;
+$larage:1025px 1200px;
+
+$min-width:90px;
+$middle-width:100px;
+$larage-width:110px;
+
+@include breakpoint($min){
+        #name1{
+            width:233px;
+        }
+        #name2{
+            width:234px;
+        }
+    }
+    @include breakpoint($middle){
+        #name1{
+            width:130px;
+        }
+        #name2{
+            width:1230px;
+        }
+    }
+    @include breakpoint($larage){
+        #name1{
+            width:120px;
+        }
+        #name2{
+            width:110px;
+        }
+    }
