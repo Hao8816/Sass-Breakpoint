@@ -20,6 +20,8 @@ javascripts_dir = "javascripts"
 # 文件的输出格式 （非压缩）
 output_style = :expanded or :nested or :compact or :compressed
 
+nested：嵌套 
+
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
 
